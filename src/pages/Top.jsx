@@ -4,7 +4,7 @@ const Top = () => {
   return (
     <>
       <div className="top">
-        <h1 id="logo">Raphiniel</h1>
+        <h1 id="logo"><a href="">Raphiniel</a></h1>
         <div className="bottomTop">
           <p className="welcomeText">Welcome To My Website</p>
           <div className="buttons">

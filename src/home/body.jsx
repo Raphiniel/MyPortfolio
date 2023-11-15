@@ -8,10 +8,10 @@ const Body = () => {
             <h1>About</h1>
 
             <p className="aboutText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sint est aperiam placeat ex sequi porro accusamus quasi blanditiis voluptatibus, aut dolores corporis, laudantium, fugiat eaque a aliquid quos quod.
+            Hi, I’m Raphiniel, a software developer and an artist. I love creating things that make people happy, whether it’s a website, a game, a painting, or a song. I have a passion for learning new skills and technologies, and I enjoy challenging my mind with puzzles and problems.
             </p>
             <p className="aboutText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sint est aperiam placeat ex sequi porro accusamus quasi blanditiis voluptatibus, aut dolores corporis, laudantium, fugiat eaque a aliquid quos quod.
+
             </p>
         </div>
         <div className="rightContainer">
@@ -23,17 +23,16 @@ const Body = () => {
 
       <div className="container">
         <div className="leftContainer">
-            <h1>About</h1>
+            <h1>More About</h1>
 
             <p className="aboutText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sint est aperiam placeat ex sequi porro accusamus quasi blanditiis voluptatibus, aut dolores corporis, laudantium, fugiat eaque a aliquid quos quod.
+            Hi, I’m Raphiniel, a software developer and an artist. I love creating things that make people happy, whether it’s a website, a game, a painting, or a song. I have a passion for learning new skills and technologies, and I enjoy challenging my mind with puzzles and problems.
             </p>
             <p className="aboutText">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sint est aperiam placeat ex sequi porro accusamus quasi blanditiis voluptatibus, aut dolores corporis, laudantium, fugiat eaque a aliquid quos quod.
-            </p>
+            I’m also a fitness enthusiast, and I practice calisthenics regularly. Calisthenics is a form of exercise that uses your own body weight as resistance, and it helps me improve my strength, flexibility, and balance. I like to push myself to the limit and see what I can achieve with my body.            </p>
         </div>
         <div className="rightContainer">
-            <img src="./images/pexels-francesco-ungaro-396547.jpg" alt="hello"/>
+            <img src="./images/2817e4a7d3326742b789325af72556e8.jpg" alt="hello"/>
         </div>
       </div>
     </>

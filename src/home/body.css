@@ -4,12 +4,14 @@
     margin-bottom: 200px;
 
     .leftContainer{
-        border: solid;
+        border: solid 0.5px black;
         width: 45%;
         height: 100%;
         margin-left: auto;
+        margin-right: 10px;
         overflow: hidden;
-
+        border-radius: 50px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.54);
         h1{
             text-align: center;
             text-decoration: underline;
@@ -26,15 +28,57 @@
         }
     }
 
+    .leftContainer:hover{
+        border:solid 2px red;
+        transition: linear 0.5s;
+        /* width: 46%;
+        height: 102%; */
+
+        /* h1{
+            text-decoration: overline;
+            font-size: 35px;
+            border: solid 1px red;
+            background-color: black;
+            color: white;
+        } */
+    }
+
     .rightContainer{
-        border: solid;
+        border: solid 1px black;
         width: 45%;
         height: 120%;
         margin-right: auto;
         overflow: hidden;
+        border-radius: 10px;
         img {
             width: 100%;
             height: 100%;
+        }
+    }
+
+    .rightContainer:hover{
+        img{
+            transition: ease-in-out 0.7s;
+            width: 110%;
+            height: 110%;
+        }
+    }
+}
+
+@media (max-width:500px){
+
+    *{
+        color: black;
+        /* font-size: 15px; */
+    }
+    .leftContainer{
+        h1{
+            font-size: 20px;
+        }
+        
+
+        .aboutText{
+            font-size: 15px;
         }
     }
 }

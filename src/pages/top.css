@@ -2,7 +2,12 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    background-color: rgb(221, 208, 208);
+    background-color: rgb(184, 168, 168);
+    /* text-decoration: none; */
+    /* rgb(221, 208, 208) */
+    /* background-image: url(C:\Users\DELL\Desktop\Zanpakto\zanpakto\public\images\IMG_0739.JPG);
+    background-size: cover;
+    background-repeat: no-repeat; */
 }
 
 .top {
@@ -26,8 +31,19 @@
         position: sticky;
         top: 0;
         left: 0;
+        cursor: pointer;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
     }
 
+    #logo:active{
+        color: blue;
+        /* transition: linear 0.3s; */
+    }
+    
     .welcomeText{
         font-size: 100px;
         padding: 10px;
