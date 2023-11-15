@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./footerz.css";
 
 const Footerz = () => {
@@ -7,11 +7,11 @@ const Footerz = () => {
       <div>
         <footer>
           <div className="leftContainer">
-            <BrowserRouter>
+            {/* <BrowserRouter>
               <Routes>
                 <Route path="/Footer" element={<Footerz />}></Route>
               </Routes>
-            </BrowserRouter>
+            </BrowserRouter> */}
             <hr />
             <marquee behavior="scroll" direction="right">
               <h1>CONTENT COMING SOON!</h1>
