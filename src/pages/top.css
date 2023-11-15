@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: rgb(221, 208, 208);
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+
+
+    .bottomTop{
+        padding-top:200px;
+        padding-bottom: 150px;
+        
+    }
+    
+
+    #logo{
+        font-style: italic;
+        font-family: serif;
+        font-size: 40px;
+        padding: 10px;
+        /* z-index: -1; */
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+
+    .welcomeText{
+        font-size: 30px;
+        padding: 10px;
+        
+    }
+
+    .buttons{
+        padding: 10px;
+
+        #aboutBtn{
+            padding:10px 40px;
+            margin-right: 10px;
+            border-radius: 30px;
+            font-size: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.54);
+            border: 0;
+        }
+        #aboutBtn:hover{
+            background-color: black;
+            color: #fff;
+            transition: ease-in-out 0.4s;
+            cursor: pointer;
+        }
+        #aboutBtn:active{
+            background-color:crimson;
+            transition: 0.1s;
+        }
+
+        #emailMeBtn{
+            padding: 10px 40px;
+            border-radius: 30px;
+            font-size: 20px;
+            box-shadow: 0 0 10px black;
+            background-color: black;
+            color: #fff;
+            border: 0;
+        }
+        #emailMeBtn:hover{
+            transition: ease-in-out 0.4s;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+        #emailMeBtn:active{
+            background-color: crimson;
+            transition: 0.1s;
+        }
+
+    }
+}
