@@ -3,7 +3,7 @@ import "./top.css";
 const Top = () => {
   return (
     <>
-      <div className="top">
+      <div className="top">1
         <h1 id="logo"><a href="">Raphiniel</a></h1>
         <div className="bottomTop">
           <p className="welcomeText">Welcome To My Website</p>
