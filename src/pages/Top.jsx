@@ -11,6 +11,7 @@ const Top = () => {
           <div className="buttons">
           <button id="aboutBtn">About</button>
           <button id="emailMeBtn">Receive an Email</button>
+          <button id="aboutBtn"> <a href="#go">Go To Bottom</a> </button>
           </div>
         </div>
       </div>

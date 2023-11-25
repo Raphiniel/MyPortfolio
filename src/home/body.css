@@ -31,6 +31,7 @@
     .leftContainer:hover{
         border:solid 2px red;
         transition: linear 0.5s;
+        scale: 1.1;
         /* width: 46%;
         height: 102%; */
 
@@ -57,11 +58,13 @@
     }
 
     .rightContainer:hover{
-        img{
+        scale: 1.1;
+        transition: 0.4s;
+        /* img{
             transition: ease-in-out 0.7s;
             width: 110%;
             height: 110%;
-        }
+        } */
     }
 }
 

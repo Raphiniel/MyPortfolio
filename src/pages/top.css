@@ -94,6 +94,15 @@
 
     }
 }
+#go{
+    text-decoration: none;
+    a{
+        text-decoration: none;
+    }
+}
+#go:active{
+    transition: 0.5s;
+}
 
 /* @media (min-width:500px){
     .welcomeText{

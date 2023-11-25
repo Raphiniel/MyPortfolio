@@ -5,7 +5,13 @@ const Footerz = () => {
   return (
     <>
       <div>
-        <footer>
+        {/* <div>
+          <h1>Workouts</h1>
+          <video src="images\IMG_1528.MOV">
+            <source src="images\IMG_1528.MOV" type="media/mp4" />
+          </video>
+        </div> */}
+        <footer id="go">
           <div className="leftContainer">
             {/* <BrowserRouter>
               <Routes>
