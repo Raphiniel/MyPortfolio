@@ -5,8 +5,9 @@ const Body = () => {
     <>
     <div className="blog">
       <h1>Blog</h1>
-      <p>l have no idea what to say or give you.Occassionally l think there are <strong > NO LIMITATIONS</strong> in this world.Then l go on to realise there could be limitations only to the extend my mind lets exist.</p>
-      <p>There is an aphorism <i>As a man thinketh so is he.</i> It is definitely as biblical as it is manifested in the physical. l belive James Allen said it, the bible said it.l have said it. That alone should stir up something in you. </p>
+      <p>l have no idea what to say .Occassionally l think there are <strong > NO LIMITATIONS</strong> in this world.Then l go on to realise there could be limitations only to the extend my mind lets exist.</p>
+      <p>There is an aphorism <i>As a man thinketh so is he.</i> It is definitely as biblical as it is manifested in the physical. l believe James Allen said it, the bible said it.l have said it. That alone should stir up something in you. </p>
+      <p>l really wish l had more for you, but for today that is it. Have a lovely day. Stay blessed. Like always my friends, today is going to be a good day.</p>
     </div>
       <div className="container">
         <div className="leftContainer">
