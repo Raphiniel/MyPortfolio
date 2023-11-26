@@ -3,6 +3,10 @@ import "./body.css";
 const Body = () => {
   return (
     <>
+    <div className="blog">
+      <h1>Blog</h1>
+      <p>l have no idea what to say or give you.Occassionally l think there are NO LIMITATIONS in this world.Then l go on to realise there could be limitations only to the extend my mind lets exist.</p>
+    </div>
       <div className="container">
         <div className="leftContainer">
             <h1>About</h1>
