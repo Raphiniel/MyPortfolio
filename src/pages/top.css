@@ -64,6 +64,9 @@
             font-size: 20px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.54);
             border: 0;
+            a{
+                padding: 10px 20px;
+            }
         }
         #aboutBtn:hover{
             background-color: black;

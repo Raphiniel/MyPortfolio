@@ -61,6 +61,7 @@
     border-radius: 10px;
     margin-bottom: 300px;
     min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.39);
     /* background-color: rgb(199, 110, 110); */
 
     h1{
@@ -83,6 +84,11 @@
         padding: 20px;
 
         i{
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        strong{
             padding: 10px;
             background-color: white;
             border-radius: 10px;
