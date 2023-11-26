@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     background-color: rgb(184, 168, 168);
+    text-decoration: none;
     /* text-decoration: none; */
     /* rgb(221, 208, 208) */
     /* background-image: url(C:\Users\DELL\Desktop\Zanpakto\zanpakto\public\images\IMG_0739.JPG);
@@ -55,8 +56,11 @@
 
         #aboutBtn{
             padding:10px 40px;
-            margin-right: 10px;
+            margin-right: 20px;
+            margin-left: 20px;
             border-radius: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px;
             font-size: 20px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.54);
             border: 0;

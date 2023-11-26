@@ -1,3 +1,19 @@
+.blog{
+    border: solid 1px red;
+    margin: 40px;
+    padding:30px;
+    border-radius: 10px;
+
+    h1{
+        font-size: 50px;
+        text-align: center;
+        padding: 20px;
+        text-decoration: underline;
+    }
+    p{
+        font-size: 25px;
+    }
+}
 .container {
     display: flex;
     height: 400px;
