@@ -12,18 +12,20 @@ const Footerz = () => {
           </video>
         </div> */}
         <footer id="go">
-          <div className="leftContainer">
+          <div>
+            <h1>Well this is the bottom</h1>
+          </div>
+          {/* <div className="leftContainer">
+            <a href="#">Well this is the bootom</a> */}
             {/* <BrowserRouter>
               <Routes>
                 <Route path="/Footer" element={<Footerz />}></Route>
               </Routes>
             </BrowserRouter> */}
-            <hr />
-            <marquee behavior="scroll" direction="right">
+            {/* <marquee behavior="scroll" direction="right">
               <h1>CONTENT COMING SOON!</h1>
-            </marquee>
-            <hr />
-          </div>
+            </marquee> */}
+          {/* </div> */}
         </footer>
       </div>
     </>

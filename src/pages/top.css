@@ -73,7 +73,7 @@
         }
         #aboutBtn:active{
             background-color:crimson;
-            transition: 0.1s;
+            transition: 0.5s;
         }
 
         #emailMeBtn{

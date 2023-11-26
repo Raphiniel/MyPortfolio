@@ -1,8 +1,64 @@
+.workouts {
+    border: solid 1px red;
+    margin: 40px;
+    padding:30px;
+    border-radius: 10px; 
+    margin-top: 200px; 
+    margin-bottom: 200px;
+    background-color: greenyellow;
+    min-height: 100vh;
+
+    h1{
+        padding: 20px;
+        font-size: 100px;
+        margin-bottom: 40px;
+        text-decoration: underline;
+        text-align: center;
+        color: red;
+    }
+}
+.about {
+    border: solid 1px red;
+    margin: 40px;
+    padding:30px;
+    border-radius: 10px;
+    /* display: flex; */
+
+    .aboutInside{
+        display: flex;
+    }
+    h1{
+        padding: 20px;
+        font-size: 100px;
+        margin-bottom: 40px;
+        text-decoration: underline;
+        text-align: center;
+        color: red;
+    }
+
+    p {
+        font-size: 30px;
+        overflow: auto;
+        padding: 10px;
+        line-height: 50px;
+        background-color: aqua;
+        margin-right: 5px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+    img{
+        border-radius: 20px;
+        width: 100%;
+        height:100%;
+    }
+}
 .blog{
     border: solid 1px red;
     margin: 40px;
     padding:30px;
     border-radius: 10px;
+    margin-bottom: 300px;
+    min-height: 100vh;
 
     h1{
         font-size: 50px;
@@ -12,6 +68,7 @@
     }
     p{
         font-size: 25px;
+        line-height: 60px;
     }
 }
 .container {
@@ -98,6 +155,48 @@
 
         .aboutText{
             font-size: 15px;
+        }
+    }
+    .about {
+        border: solid 1px red;
+        margin: 40px;
+        padding:30px;
+        border-radius: 10px;
+        /* display: flex; */
+    
+        .aboutInside{
+            display: flex;
+        }
+        h1{
+            padding: 20px;
+            font-size: 30px;
+            text-decoration: underline;
+            text-align: center;
+        }
+    
+        p {
+            font-size: 30px;
+            overflow: auto;
+        }
+        img{
+            border-radius: 20px;
+            width: 170px;
+            height:400px;
+            overflow: auto;
+        }
+    }
+    .workouts {
+        border: solid 1px red;
+        margin: 40px;
+        padding:30px;
+        border-radius: 10px;  
+    
+        h1{
+            padding: 20px;
+            font-size: 30px;
+            margin-bottom: 40px;
+            text-decoration: underline;
+            text-align: center;
         }
     }
 }

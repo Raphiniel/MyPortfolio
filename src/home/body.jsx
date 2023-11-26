@@ -5,11 +5,12 @@ const Body = () => {
     <>
     <div className="blog">
       <h1>Blog</h1>
-      <p>l have no idea what to say or give you.Occassionally l think there are <strong> NO LIMITATIONS</strong> in this world.Then l go on to realise there could be limitations only to the extend my mind lets exist.</p>
+      <p>l have no idea what to say or give you.Occassionally l think there are <strong > NO LIMITATIONS</strong> in this world.Then l go on to realise there could be limitations only to the extend my mind lets exist.</p>
+      <p>Another </p>
     </div>
       <div className="container">
         <div className="leftContainer">
-            <h1>About</h1>
+            <h1>Podcast</h1>
 
             {/* <p className="aboutText">
             Hi, I’m Raphiniel, a software developer and an artist. I love creating things that make people happy, whether it’s a website, a game, a painting, or a song. I have a passion for learning new skills and technologies, and I enjoy challenging my mind with puzzles and problems.
@@ -27,7 +28,7 @@ const Body = () => {
 
       <div className="container">
         <div className="leftContainer">
-            <h1>More About</h1>
+            <h1>Programming and Youtube</h1>
 
             {/* <p className="aboutText">
             Hi, I’m Raphiniel, a software developer and an artist. I love creating things that make people happy, whether it’s a website, a game, a painting, or a song. I have a passion for learning new skills and technologies, and I enjoy challenging my mind with puzzles and problems.
@@ -38,6 +39,25 @@ const Body = () => {
         <div className="rightContainer">
             <img src="./images/2817e4a7d3326742b789325af72556e8.jpg" alt="hello"/>
         </div>
+      </div>
+      <div className="about" id="aboutPage">
+        <h1>About</h1>
+        <div className="aboutInside">
+        <div className="aboutP">
+        <p>The About Page.I will ask, what do you want to know about me?</p>
+        <p>Hi, I’m Raphiniel, a freelance web developer and designer with over 12 months of experience in creating stunning websites for small businesses and entrepreneurs</p>
+        </div>
+        <div className="aboutImg">
+        <img src="images\IMG_0739.JPG" alt="" width="400px" height="400px"/>
+
+        </div>
+        </div>
+      </div>
+      <div className="workouts">
+        <h1>
+          Workouts 
+        </h1>
+        <video autoPlay muted loop src="images\IMG_1528.MOV"  width="100%" height="600px"></video>
       </div>
     </>
   );
