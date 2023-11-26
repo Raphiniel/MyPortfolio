@@ -5,7 +5,7 @@
     border-radius: 10px; 
     margin-top: 200px; 
     margin-bottom: 200px;
-    background-color: greenyellow;
+    /* background-color: yellow; */
     min-height: 100vh;
 
     h1{
@@ -14,7 +14,7 @@
         margin-bottom: 40px;
         text-decoration: underline;
         text-align: center;
-        color: red;
+        color: black;
     }
 }
 .about {
@@ -33,7 +33,7 @@
         margin-bottom: 40px;
         text-decoration: underline;
         text-align: center;
-        color: red;
+        color: black;
     }
 
     p {
@@ -41,7 +41,8 @@
         overflow: auto;
         padding: 10px;
         line-height: 50px;
-        background-color: aqua;
+        /* background-color: aqua; */
+        background-color: yellow;
         margin-right: 5px;
         border-radius: 5px;
         margin-bottom: 50px;
@@ -53,22 +54,39 @@
     }
 }
 .blog{
-    border: solid 1px red;
+    border: solid 1px black;
     margin: 40px;
     padding:30px;
     border-radius: 10px;
     margin-bottom: 300px;
     min-height: 100vh;
+    /* background-color: rgb(199, 110, 110); */
 
     h1{
         font-size: 50px;
         text-align: center;
         padding: 20px;
         text-decoration: underline;
+        background-color: yellow;
+        margin: 30px;
+        padding: 20px;
+        border-radius: 10px;
     }
     p{
         font-size: 25px;
         line-height: 60px;
+        color: purple;
+        border-radius: 10px;
+        background-color: yellow;
+        margin: 30px;
+        padding: 20px;
+
+        i{
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+        }
+    
     }
 }
 .container {
@@ -115,6 +133,11 @@
             background-color: black;
             color: white;
         } */
+    }
+
+    .leftContainer:nth-child(odd){
+        /* background-color: rgb(206, 91, 91); */
+        background-color: yellow;
     }
 
     .rightContainer{

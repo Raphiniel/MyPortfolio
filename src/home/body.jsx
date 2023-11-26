@@ -6,7 +6,7 @@ const Body = () => {
     <div className="blog">
       <h1>Blog</h1>
       <p>l have no idea what to say or give you.Occassionally l think there are <strong > NO LIMITATIONS</strong> in this world.Then l go on to realise there could be limitations only to the extend my mind lets exist.</p>
-      <p>Another </p>
+      <p>There is an aphorism <i>As a man thinketh so is he.</i> It is definitely as biblical as it is manifested in the physical. l belive James Allen said it, the bible said it.l have said it. That alone should stir up something in you. </p>
     </div>
       <div className="container">
         <div className="leftContainer">
